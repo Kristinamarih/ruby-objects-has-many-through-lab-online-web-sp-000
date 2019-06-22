@@ -22,5 +22,6 @@ class Artist
   end
   
   def genres 
-    son
+    songs.collect do |song|
+      
 end
